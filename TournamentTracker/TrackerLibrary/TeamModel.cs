@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 namespace TrackerLibrary
 {
     public class TeamModel
-    {
-        public List<Person> TeamMembers { get; set; } = new List<Person>();
+    {/// <summary>
+    /// List of Team Members in the tournament
+    /// </summary>
+        public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
+        /// <summary>
+        /// Names of Teams in tournament
+        /// </summary>
         public string TeamName { get; set; }
 
 
